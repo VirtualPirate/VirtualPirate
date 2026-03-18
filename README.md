@@ -1,13 +1,14 @@
 # Hi, I'm Artaza Sameen
 
-**Backend Developer** | TypeScript, NestJS, PostgreSQL — currently building in FinTech.
+**Backend Developer** | TypeScript, NestJS, Python, FastAPI, PostgreSQL — building in FinTech & AI.
 
 ## About Me
 
-- Backend-focused developer with 2.5+ years of production experience on a single SaaS product, 2,500+ commits across the full stack.
+- Backend-focused developer with 3+ years of production experience on SaaS products, 2,500+ commits across the full stack.
 - I design and maintain REST APIs, database schemas, async job pipelines, and third-party service integrations.
 - Comfortable working across the stack when needed — Next.js frontends, admin dashboards, CI/CD pipelines — but my core work is server-side.
-- Current domain: FinTech — payment processing, banking integrations, and multi-tenant data pipelines.
+- Domains I have experience in: FinTech (banking integrations, multi-tenant data pipelines), AI Voice (multi-provider call orchestration, distributed scheduling, LLM-driven call analysis) and maintaining data-heavy frontend applications.
+- Most of my backend contributions are on private repositories, hidden due to non-disclosure agreements.
 
 ## Tech Stack
 
@@ -21,6 +22,12 @@
 ![BullMQ](https://img.shields.io/badge/BullMQ-E34F26?style=flat&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 
 **Frontend**
 
@@ -34,25 +41,22 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GCP Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![AWS ECR](https://img.shields.io/badge/AWS_ECR-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-**Third-Party APIs**
+## What I have been building professionally
 
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white)
-![Plaid](https://img.shields.io/badge/Plaid-000000?style=flat&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Stytch](https://img.shields.io/badge/Stytch-000000?style=flat&logoColor=white)
+**API Design & Architecture** — RESTful services with modular, domain-driven structure, handling cross-cutting concerns like auth, caching, and validation.
 
-## What I Build
+**Async & Background Processing** — Distributed job queues with BullMQ, Redis and RabbitMQ: producers, consumers, cron schedulers, and queue event listeners. Handles data syncing, webhook ingestion, report generation, and retry logic.
 
-**API Design & Architecture** — RESTful services in NestJS with modular, domain-driven structure. Guards, interceptors, decorators, and middleware for cross-cutting concerns like auth, caching, and validation.
+**Database & Data Pipelines** — Schema designs, repository-pattern data access and multi-tenant data isolation.
 
-**Async & Background Processing** — Distributed job queues with BullMQ: producers, consumers, cron schedulers, and queue event listeners. Handles data syncing, webhook ingestion, report generation, and retry logic.
+**Auth & Multi-Tenancy** — RBAC with layered guard chains, workspace-scoped caching with Redis, and third-party identity provider integration.
 
-**Database & Data Pipelines** — Schema design, TypeORM migrations, repository-pattern data access, CDC (Change Data Capture), and multi-tenant data isolation.
+**Third-Party Integrations** — Stripe (payouts, balance transactions, subscriptions), Plaid (bank account linking), QuickBooks, Slack (notifications), and OpenAI (AI agents).
 
-**Auth & Multi-Tenancy** — RBAC with layered guard chains, workspace-scoped caching with Redis, and third-party identity provider integration (Stytch).
-
-**Third-Party Integrations** — Stripe (payouts, balance transactions, subscriptions), Plaid (bank account linking), QuickBooks (bidirectional accounting sync), Slack (notifications), and OpenAI (AI agents).
+**AI Voice Call Scheduling** — Designed and built a multi-provider AI voice call orchestration platform with Python/FastAPI. Implemented a distributed call scheduler with concurrent call limiting using PostgreSQL as a state machine, Celery Beat periodic dispatching with configurable time windows, bulk call queuing, stale call reconciliation, and post-call analysis using OpenAI structured outputs. Integrated VAPI for call execution, Langfuse for prompt management, and Flexprice for cost tracking.
 
 **Frontend When Needed** — Next.js 15 App Router, Redux state management, and component libraries (Chakra UI, shadcn/ui). Admin dashboards, onboarding flows, and data-heavy UI.
 
@@ -62,4 +66,3 @@
   <img src="https://github-readme-stats.vercel.app/api?username=VirtualPirate&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VirtualPirate&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="165" />
 </p>
-
