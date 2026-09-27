@@ -4,7 +4,7 @@
 
 ## About Me
 
-- Backend-focused developer with 3+ years of production experience on SaaS products, 2,500+ commits across the full stack.
+- Backend-focused developer with 3+ years of production experience on SaaS products.
 - I design and maintain REST APIs, database schemas, async job pipelines, and third-party service integrations.
 - Comfortable working across the stack when needed — Next.js frontends, admin dashboards, CI/CD pipelines — but my core work is server-side.
 - Domains I have experience in: FinTech (banking integrations, multi-tenant data pipelines), AI Voice (multi-provider call orchestration, distributed scheduling, LLM-driven call analysis) and maintaining data-heavy frontend applications.
